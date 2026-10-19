@@ -1,6 +1,6 @@
 package org.example;
 
-public class SmartPhone extends SmartDevice{
+public class SmartPhone extends SmartDevice implements Chargeable, Connectable{
 
     public SmartPhone(String brand, String model){
         super(brand, model);
