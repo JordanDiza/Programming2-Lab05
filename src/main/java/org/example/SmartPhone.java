@@ -1,0 +1,27 @@
+package org.example;
+
+public class SmartPhone extends SmartDevice{
+
+    public SmartPhone(String brand, String model){
+        super(brand, model);
+    }
+
+    @Override
+    public void performMainAction(){
+        System.out.println("SmartPhone is making a phone call.");
+    }
+
+    public void makeCall(){
+        System.out.println("******** Dialling Jordan ********");
+    }
+
+    @Override
+    public void charge() {
+        System.out.println("SmartPhone is charging");
+    }
+
+    @Override
+    public void connectToWifi(){
+        System.out.println("SmartPhone connected to WiFi");
+    }
+}
