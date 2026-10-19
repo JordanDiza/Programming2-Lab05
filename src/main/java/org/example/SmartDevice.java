@@ -24,7 +24,7 @@ public abstract class SmartDevice {
             System.out.println("Invalid ");
         }
         else{
-            System.out.println("Brand: " + brand + "Model: " + model);
+            System.out.println("Brand: " + brand + " , " + "Model: " + model);
         }
     }
 
