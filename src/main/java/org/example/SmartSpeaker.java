@@ -1,6 +1,6 @@
 package org.example;
 
-public class SmartSpeaker extends SmartDevice implements Chargeable, Connectable{
+public class SmartSpeaker extends SmartDevice implements Connectable{
     public SmartSpeaker(String brand, String model){
         super(brand, model);
     }
@@ -15,7 +15,7 @@ public class SmartSpeaker extends SmartDevice implements Chargeable, Connectable
     }
 
     @Override
-    public void connectToWifi(){
+    public void connectToWiFi(){
         System.out.println("SmartSpeaker conencted to WiFi");
     }
 }

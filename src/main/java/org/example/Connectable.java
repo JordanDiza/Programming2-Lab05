@@ -1,5 +1,5 @@
 package org.example;
 
 public interface Connectable {
-    void connectToWife();
+    void connectToWiFi();
 }

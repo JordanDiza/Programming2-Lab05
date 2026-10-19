@@ -21,7 +21,7 @@ public class SmartPhone extends SmartDevice implements Chargeable, Connectable{
     }
 
     @Override
-    public void connectToWifi(){
+    public void connectToWiFi(){
         System.out.println("SmartPhone connected to WiFi");
     }
 }
